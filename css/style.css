@@ -80,7 +80,7 @@ ul,ol{
 }
 
 
-.main-nav{
+.navigation{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -106,7 +106,7 @@ ul,ol{
     font-weight: 700;
 }
 
-.main-nav__menu{
+.navigation__menu{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -225,6 +225,8 @@ ul,ol{
 
 .load-more:hover{
     cursor: pointer;
+    border: 3px solid #f38181;
+    color: #f38181;
 }
 
 .main-section{
